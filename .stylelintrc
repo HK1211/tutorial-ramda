@@ -1,0 +1,23 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-empty-source": null,
+    "selector-pseudo-element-no-unknown": null,
+    "block-no-empty": null,
+    "declaration-empty-line-before": null,
+    "no-descending-specificity": null,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["function", "if", "each", "include", "mixin"]
+      }
+    ]
+  },
+  "ignorePatterns": ["node_modules/*"]
+}
