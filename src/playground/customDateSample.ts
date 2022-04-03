@@ -1,4 +1,3 @@
-import React from 'react';
 import CustomDate from '../utils/customDate';
 
 function customDateSample() {
