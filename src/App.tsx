@@ -1,9 +1,7 @@
 import React from 'react';
-import map, { hash, target, testList, testComponent2 } from './playground/ramda/map';
-import CustomObject, { customObjectSample } from './utils/customObject';
+import { target, testList, testComponent2 } from './playground/ramda/map';
 
 function App() {
-  customObjectSample();
   return (
     <>
       {testList(target)}
